@@ -33,8 +33,28 @@
 19. Sus_scrofa (Pig)
 20. Xenopus_laevis (African clawed frog)
 
+Чтобы объединить все последовательности в один файл воспользовалась командой cat:
+```
+$ cat *.fasta > All.fasta
+```
+
 ### Построение выравнивания
+
+Загрузила данные в MEGAX. Авторы статьи воспользовались алгоритмом MAFFT для построения выравнивнивания, поэтому я решила запустить MUSCLE. 
+
+Так выглядит получившееся выравнивание:
 ![GitHub Logo](/Images/alignment.png)
+
+Сохранила его в файл All_alignment.fasta в этом репозитории.
+
 ### Филогенетическое дерево
+
 ![GitHub Logo](/Images/tree.png)
+
+```
+$ distmat All_alignment.fasta dist_matrix.txt
+$ fastme -i dist_matrix.txt
+```
+
+![GitHub Logo](/Images/tree_fastme.png)
 ### Сравнение результатов
