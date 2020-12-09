@@ -6,10 +6,12 @@
 Для построения выравнивания авторы использовали программу MAFFT 7 tool (http://www.ebi.ac.uk/Tools/msa/mafft/), а для построения филогенетического дерева: W-IQ-TREE (Version 1.5.4 at http://iqtree.cibiv.univie.ac.at).
 
 В итоге, получились такие результаты:
-![GitHub Logo](/Images/result.png)
+![GitHub Logo](/Images/results.png)
 
 ### Сбор данных
 
 ### Построение выравнивания
+![GitHub Logo](/Images/alignment.png)
 ### Филогенетическое дерево
+![GitHub Logo](/Images/tree.png)
 ### Сравнение результатов
