@@ -49,9 +49,21 @@ $ cat *.fasta > All.fasta
 
 ### Филогенетическое дерево
 
+| Parameter | Value |
+| ------------- | ----- |
+| Statistical Method | Maximum Likelihood |
+| Test of Phylogeny | Bootstrap method |
+| No. of Bootstrap Replications | 100 |
+| Substitutions Type | Amino acid |
+| Model/Method | Poisson model |
+| ML Heuristic Method | Nearest-Neighbor-Interchange (NNI) |
+| Initial Tree for ML | Make initial tree automatically (Default - NJ/BioNJ) |
+
 ![GitHub Logo](/Images/tree.png)
 
 ```
+$ conda install -c bioconda fastme
+$ conda install -c bioconda emboss
 $ distmat All_alignment.fasta dist_matrix.txt
 $ fastme -i dist_matrix.txt
 ```
