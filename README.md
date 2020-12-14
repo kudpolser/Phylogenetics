@@ -23,7 +23,7 @@
 9. Homo_sapiens (Human)
 10. Hydra_vulgaris (Hydra)
 11. Loxodonta_africana (African elephant)
-12. Monodelphis_domestica (Gray short-tailed opossum
+12. Monodelphis_domestica (Gray short-tailed opossum)
 13. Mus_musculus (Mouse)
 14. Myotis_lucifugus (Little brown bat)
 15. Oryzias_latipes (Japanese killifish)
